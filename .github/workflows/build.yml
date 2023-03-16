@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Actions"
-          git add build
-          git commit -m "Publish build folder"
-          git push origin main
+          git add dist -f
+          git commit -m "Publish dist folder"
+          git push origin master
