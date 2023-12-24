@@ -2,11 +2,12 @@
   "name": "bsccsitnepal",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
+    "start": "astro preview",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@astrojs/sitemap": "^1.0.1",
@@ -27,5 +28,7 @@
     "tailwindcss": "^3.3.3",
     "workbox-build": "^6.5.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
 }
