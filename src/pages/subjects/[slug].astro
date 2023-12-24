@@ -33,7 +33,7 @@ const questionOfThisSubject = questionEntries.filter((q) => q.slug.split("/")[0]
       <main class="container mx-auto col-span-2">
         <a
           class="relative flex items-start border-l-4 border-teal-400 justify-between align-between rounded-xl p-4 m-4 shadow-lg hover:shadow-xl sm:p-6 lg:p-8"
-          href={`/syllabus/${subject.slug}/`}>
+          href={`/syllabus/${subject.slug}`}>
           <div class="flex py-4 text-gray-500 gap-5">
             <h1 class="text-xl font-bold text-gray-600">{1}.</h1>
             <h3 class="text-lg font-bold text-gray-600 sm:text-xl">Syllabus</h3>
@@ -43,7 +43,7 @@ const questionOfThisSubject = questionEntries.filter((q) => q.slug.split("/")[0]
           questionOfThisSubject.length > 0 ? (
             <a
               class="relative flex items-start border-l-4 border-teal-400 justify-between align-between rounded-xl p-4 m-4 shadow-lg hover:shadow-xl sm:p-6 lg:p-8"
-              href={`/questions/${subject.slug}/`}>
+              href={`/questions/${subject.slug}`}>
               <div class="flex py-4 text-gray-500 gap-5">
                 <h1 class="text-xl font-bold text-gray-600">{2}.</h1>
                 <h3 class="text-lg font-bold text-gray-600 sm:text-xl">Questions</h3>

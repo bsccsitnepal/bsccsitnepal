@@ -10,6 +10,7 @@ dotenv.config();
 // https://astro.build/config
 export default defineConfig({
   site: process.env.SITE_URL,
+  trailingSlash: 'never',
   markdown: {
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeMathjax]

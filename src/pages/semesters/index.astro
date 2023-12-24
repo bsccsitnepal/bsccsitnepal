@@ -17,7 +17,7 @@ import semesters from "../../data/semesters.json";
           semesters.map((semester, index) => (
             <a
               class="relative flex items-start border-l-4 border-purple-600 justify-between rounded-xl p-4 m-4 shadow-lg hover:shadow-xl sm:p-6 lg:p-8"
-              href={`/semesters/${semester.slug}/`}>
+              href={`/semesters/${semester.slug}`}>
               <div class="flex py-4 text-gray-500 gap-5">
                 <h1 class="text-xl font-bold text-gray-900">{index + 1} .</h1>
                 <h3

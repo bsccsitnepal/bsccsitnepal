@@ -24,9 +24,9 @@ export async function getStaticPaths() {
 const { question } = Astro.props;
 
 const questionEntries = await getCollection("questions");
-console.log(questionEntries[0].slug, question.subject.slug);
+console.log(questionEntries[0].slug, question.subject?.slug);
 const questionOfThisSubject = questionEntries.filter(
-  (q) => q.slug.split("/")[0] === question.subject.slug
+  (q) => q.slug.split("/")[0] === question.subject?.slug,
 );
 questionOfThisSubject.reverse();
 ---
@@ -34,7 +34,7 @@ questionOfThisSubject.reverse();
 <Layout title="Questions">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">{question.subject.title}</Fragment>
+      <Fragment slot="title">{question.subject?.title}</Fragment>
       <Fragment slot="desc">Old Questions</Fragment>
     </Sectionhead>
     <main class="conatiner mx-auto mt-16">
@@ -43,7 +43,7 @@ questionOfThisSubject.reverse();
           questionOfThisSubject.map((year, index) => (
             <a
               class="relative flex items-start border-l-4 border-violet-400 justify-between rounded-xl p-4 m-4 shadow-lg hover:shadow-xl sm:p-6 lg:p-8"
-              href={`/questions/${year.slug}/`}>
+              href={`/questions/${year.slug}`}>
               <div class="flex py-4 text-gray-500 gap-5">
                 <h1 class="text-xl font-bold text-gray-900">{index + 1} .</h1>
                 <h3 class="text-lg font-bold text-gray-900 sm:text-xl">

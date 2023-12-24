@@ -39,7 +39,7 @@ let electiveSubjects = currentSemesterSubjects.filter((subject) => subject.elect
           compulsorySubjects.map((subject, index) => (
             <a
               class="relative flex items-start border-l-4 border-green-600 justify-between align-between rounded-xl p-4 m-4 shadow-lg hover:shadow-xl sm:p-6 lg:p-8"
-              href={`/subjects/${subject.slug}/`}>
+              href={`/subjects/${subject.slug}`}>
               <div class="flex py-4 text-gray-500 gap-5">
                 <h1 class="text-xl font-bold text-gray-900">{index + 1}.</h1>
                 <h3
@@ -64,7 +64,7 @@ let electiveSubjects = currentSemesterSubjects.filter((subject) => subject.elect
               {electiveSubjects.map((subject, index) => (
                 <a
                   class="relative flex items-start border-l-4 border-rose-500 justify-between align-between rounded-xl p-4 m-4 shadow-lg hover:shadow-xl sm:p-6 lg:p-8"
-                  href={`/subjects/${subject.slug}/`}>
+                  href={`/subjects/${subject.slug}`}>
                   <div class="flex py-4 text-gray-500 gap-5">
                     <h1 class="text-xl font-bold text-gray-900">{index + 1}.</h1>
                     <h3
