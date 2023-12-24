@@ -20,18 +20,18 @@ const features = [
       "Our website is equipped with Progressive Web App (PWA) functionality, allowing you to easily install it as an app.",
     icon: "fa-light fa-mobile",
   },
-  {
-    title: "Offline Availability",
-    description:
-      "Thanks to the Progressive Web App (PWA) capabilities, the content of our website can be accessed offline.",
-    icon: "fa-light fa-wifi-slash",
-  },
-  {
-    title: "Open Sourced",
-    description:
-      "We strongly adhere to the principles of open source. All of our content is tracked and managed using GitHub.",
-    icon: "fa-brands fa-osi",
-  },
+  // {
+  //   title: "Offline Availability",
+  //   description:
+  //     "Thanks to the Progressive Web App (PWA) capabilities, the content of our website can be accessed offline.",
+  //   icon: "fa-light fa-wifi-slash",
+  // },
+  // {
+  //   title: "Open Sourced",
+  //   description:
+  //     "We strongly adhere to the principles of open source. All of our content is tracked and managed using GitHub.",
+  //   icon: "fa-brands fa-osi",
+  // },
   {
     title: "Printable Pages",
     description: "All of our resource pages are print friendly. Just print it. No issue.",
@@ -40,25 +40,27 @@ const features = [
 ];
 ---
 
-<div class="mt-16 md:mt-0">
-  <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">All the contents you need</h2>
-  <p class="text-lg mt-4 text-slate-600">
-    We have prepared a comprehensive collection of resources you need.
-  </p>
-</div>
+<div class="md:px-20 sm:px-0">
+  <div class="mt-16 md:mt-0">
+    <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">All the contents you need</h2>
+    <p class="text-lg mt-4 text-slate-600">
+      We have prepared a comprehensive collection of resources you need.
+    </p>
+  </div>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
-  {
-    features.map((item) => (
-      <div class="flex gap-4 items-start">
-        <div class="mt-1 bg-black rounded-full p-2 w-10 h-10 shrink-0 flex place-content-center">
-          <i class={"text-white place-self-center " + item.icon} />
+  <div class="grid sm:grid-cols-2 md:grid-cols-2 mt-16 gap-16">
+    {
+      features.map((item) => (
+        <div class="flex gap-4 items-start">
+          <div class="mt-1 bg-black rounded-full p-2 w-10 h-10 shrink-0 flex place-content-center">
+            <i class={"text-white place-self-center " + item.icon} />
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+            <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          </div>
         </div>
-        <div>
-          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
-        </div>
-      </div>
-    ))
-  }
+      ))
+    }
+  </div>
 </div>
