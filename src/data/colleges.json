@@ -1,0 +1,1795 @@
+[
+  {
+    "id": 1,
+    "name": "Patan Multiple Campus",
+    "slug": "patan-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2011 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015549133"],
+    "email": ["info@pmc.edu.np"],
+    "website": ["https://pmc.tu.edu.np/", "https://pmc.edu.np"],
+    "socials": {
+      "facebook": "https://www.facebook.com/Patanmultiplecampusofficial/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.67918440690178, 85.32136925481645",
+      "latitude": 27.67918440690178,
+      "longitude": 85.32136925481645,
+      "link": "https://maps.app.goo.gl/YWXJM53GY6eY8LvL7"
+    },
+    "quota": { "total": 144, "open": 115, "samabeshi": 29 }
+  },
+  {
+    "id": 2,
+    "name": "Amrit Science Campus",
+    "slug": "amrit-science-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "1962 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014521476"],
+    "email": ["info@amritcampus.edu.np"],
+    "website": ["https://ac.tu.edu.np/", "https://amritcampus.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/ASCOL11/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.717823721906804, 85.31282295235259",
+      "latitude": 27.717823721906804,
+      "longitude": 85.31282295235259,
+      "link": "https://maps.app.goo.gl/cp4pxmFDn25Cf9EcA"
+    },
+    "quota": { "total": 144, "open": 115, "samabeshi": 29 }
+  },
+  {
+    "id": 3,
+    "name": "Bhaktapur Multiple Campus",
+    "slug": "bhaktapur-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2016 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["016610200"],
+    "email": ["info@bkmc.tu.edu.np"],
+    "website": ["https://bkmc.tu.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/groups/1385653928133900/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.669107127179227, 85.42089089468044",
+      "latitude": 27.669107127179227,
+      "longitude": 85.42089089468044,
+      "link": "https://maps.app.goo.gl/drDUtG9jnzax6QoC9"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 4,
+    "name": "Padma Kanya Multiple Campus",
+    "slug": "padma-kanya-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2008 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014224149", "014221712"],
+    "email": ["info@pkcampus.com.np"],
+    "website": ["https://pkcampus.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/pkmcofficial/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.705778622177007, 85.3208236004033",
+      "latitude": 27.705778622177007,
+      "longitude": 85.3208236004033,
+      "link": "https://maps.app.goo.gl/RhknLibmKxVHbKBa8"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 5,
+    "name": "Siddhanath Science Campus",
+    "slug": "siddhanath-science-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2033 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["099521304", "099521220"],
+    "email": ["info@snsc.edu.np"],
+    "website": ["https://www.snsc.edu.np/"],
+    "socials": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.955072134205146, 80.1822733336628",
+      "latitude": 28.955072134205146,
+      "longitude": 80.1822733336628,
+      "link": "https://maps.app.goo.gl/pC56u91Vhxbcf7D39"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 6,
+    "name": "Ramsworup Ramsagar Multiple Campus",
+    "slug": "ramsworup-ramsagar-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2014 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["041525074", "9804872067"],
+    "email": ["info@rrmc.tu.edu.np", "rrmcamppus.jnp@gmail.com"],
+    "website": ["https://rrmc.tu.edu.np/"],
+    "socials": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.716191504999866, 85.93245496212977",
+      "latitude": 26.716191504999866,
+      "longitude": 85.93245496212977,
+      "link": "https://maps.app.goo.gl/zQgJMaBe2TtrDRU68"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 7,
+    "name": "Mechi Multiple Campus",
+    "slug": "mechi-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "1964 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["023452135"],
+    "email": ["mechicampus@gmail.com"],
+    "website": ["https://mechicampus.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/mechimultiplecampus.official/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.56092050006111, 88.08718257778567",
+      "latitude": 26.56092050006111,
+      "longitude": 88.08718257778567,
+      "link": "https://maps.app.goo.gl/rk2PFUVEcHLKjch99"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 8,
+    "name": "Mahendra Morang Adarsh Multiple Campus",
+    "slug": "mahendra-morang-adarsh-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2012 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["021471404", "021471438", "9874562132"],
+    "email": ["info@mmamc.edu.np"],
+    "website": ["https://www.mmamc.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/mahendra.morang.college/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.445906781144206, 87.27263621236555",
+      "latitude": 26.445906781144206,
+      "longitude": 87.27263621236555,
+      "link": "https://maps.app.goo.gl/xwcScixhL7YVfViUA"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 9,
+    "name": "Birendra Multiple Campus",
+    "slug": "birendra-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2022 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["056493253", "056493153"],
+    "email": ["info@bmc.edu.np"],
+    "website": ["https://bmc.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/bimc.chitwan/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.688028342726824, 84.4306535904845",
+      "latitude": 27.688028342726824,
+      "longitude": 84.4306535904845,
+      "link": "https://maps.app.goo.gl/2ZYHbRFcZyWqk6t87"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 10,
+    "name": "Prithvi Narayan Campus",
+    "slug": "prithvi-narayan-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "1960 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["061576837"],
+    "email": ["info@pncampus.edu.np"],
+    "website": ["https://pncampus.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/pncampus.edu.np",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "http://twitter.com/pncampus",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.240025327706057, 83.99172902862846",
+      "latitude": 28.240025327706057,
+      "longitude": 83.99172902862846,
+      "link": "https://maps.app.goo.gl/1jrLah6y1bpWjaBd6"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 11,
+    "name": "Butwal Multiple Campus",
+    "slug": "butwal-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2030 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["071540134", "071551516"],
+    "email": ["butwalmcampus@gmail.com"],
+    "website": ["https://bumc.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/csit.bmc/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.71076121222853, 83.4678999173573",
+      "latitude": 27.71076121222853,
+      "longitude": 83.4678999173573,
+      "link": "https://maps.app.goo.gl/u5grUyWAMtDdiKeM6"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 12,
+    "name": "Bhairahawa Multiple Campus",
+    "slug": "bhairahawa-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2025 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["071520205", "9857016948"],
+    "email": ["info@bhairahawacampus.edu.np"],
+    "website": ["https://bhairahawacampus.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/Bhairahawamultiplecampus1/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.505930568169585, 83.46401799584952",
+      "latitude": 27.505930568169585,
+      "longitude": 83.46401799584952,
+      "link": "https://maps.app.goo.gl/Xaf9iynhtJijm2jdA"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 13,
+    "name": "Mahendra Multiple Campus",
+    "slug": "mahendra-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2014 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["081528041", "081521275"],
+    "email": ["mmcnepalgunj@gmail.com"],
+    "website": ["https://www.mmcn.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/mmcnepalgunj/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.0388826826914, 81.61053010394222",
+      "latitude": 28.0388826826914,
+      "longitude": 81.61053010394222,
+      "link": "https://maps.app.goo.gl/yMpT2FsiTuvazQRq7"
+    },
+    "quota": { "total": 72, "open": 58, "samabeshi": 14 }
+  },
+  {
+    "id": 14,
+    "name": "Mahendra Multiple Campus",
+    "slug": "mahendra-multiple-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "2015 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["082560035"],
+    "email": ["info@mamc.tu.edu.np"],
+    "website": ["https://mamc.tu.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/mahendracampus/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.028824236481512, 82.48624939553484",
+      "latitude": 28.028824236481512,
+      "longitude": 82.48624939553484,
+      "link": "https://maps.app.goo.gl/QYagoCYso2Ej7nU47"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 15,
+    "name": "Central Campus of Technology",
+    "slug": "central-campus-of-technology",
+    "short_description": "",
+    "description": "",
+    "ownership": "Constituent Institution",
+    "established": "1972 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["025570228"],
+    "email": ["info@cct.tu.edu.np"],
+    "website": ["https://www.cctdharan.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/cctdrn/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.80655261115591, 87.28454033758845",
+      "latitude": 26.80655261115591,
+      "longitude": 87.28454033758845,
+      "link": "https://maps.app.goo.gl/toQFLFL5yioJ8Mhn7"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 16,
+    "name": "St.Xaviers College",
+    "slug": "st.xaviers-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1988 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015321365", "015344636"],
+    "email": ["ktm@sxc.edu.np"],
+    "website": ["https://www.sxc.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/sxcmaitighar",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "https://twitter.com/sxcmaitighar",
+      "youtube": "https://www.youtube.com/c/sxclive",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.693318401067536, 85.32112641308255",
+      "latitude": 27.693318401067536,
+      "longitude": 85.32112641308255,
+      "link": "https://maps.app.goo.gl/o7hw1mtk3w6i9xab7"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 17,
+    "name": "Kathford International College of Engineering and Management",
+    "slug": "kathford-international-college-of-engineering-and-management",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2003 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015186046", "015186112"],
+    "email": ["info@kathford.edu.np"],
+    "website": ["https://kathford.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/thekathford",
+      "instagram": "https://www.instagram.com/kathfordcollege",
+      "linkedin": "https://www.linkedin.com/company/93201199/admin/",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": "https://www.tiktok.com/@kathfordshorts"
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.673696341366178, 85.33858855240061",
+      "latitude": 27.673696341366178,
+      "longitude": 85.33858855240061,
+      "link": "https://maps.app.goo.gl/s8ua99siAArkUWYR9"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 18,
+    "name": "New Summit College",
+    "slug": "new-summit-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2055 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014620522", "014620523", "014620524"],
+    "email": ["info@newsummit.edu.np"],
+    "website": ["https://newsummit.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/newsummitcollegeNP",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.687477251285504, 85.34358038363456",
+      "latitude": 27.687477251285504,
+      "longitude": 85.34358038363456,
+      "link": "https://maps.app.goo.gl/j5b5JQ4rFR8u53N16"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 19,
+    "name": "Prime College",
+    "slug": "prime-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2001 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014961690", "014970072"],
+    "email": ["info@prime.edu.np"],
+    "website": ["https://prime.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/primecollegenp",
+      "instagram": "https://www.instagram.com/prime__college/?hl=en",
+      "linkedin": "https://np.linkedin.com/company/prime-college-nepal",
+      "twitter": "",
+      "youtube": "https://www.youtube.com/user/primecollege1",
+      "tiktok": "https://www.tiktok.com/@prime_college"
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.717088987910966, 85.30301963406615",
+      "latitude": 27.717088987910966,
+      "longitude": 85.30301963406615,
+      "link": "https://maps.app.goo.gl/xybgdcW2oyG47jDm6"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 20,
+    "name": "St.Lawrence College",
+    "slug": "st.lawrence-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1977 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014469666"],
+    "email": ["info@stlawrence.edu.np"],
+    "website": ["https://www.stlawrence.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/stlawrencecollege/",
+      "instagram": "https://www.instagram.com/stlawrenceofficial/",
+      "linkedin": "",
+      "twitter": "https://twitter.com/StLawrenceNepal",
+      "youtube": "https://www.youtube.com/channel/UCVLyfV65OsWEN4J5x1rwqKg/videos",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.715412465592475, 85.34686317743076",
+      "latitude": 27.715412465592475,
+      "longitude": 85.34686317743076,
+      "link": "https://maps.app.goo.gl/n2JEgxDFuFPNDe8z8"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 21,
+    "name": "College of Applied Business",
+    "slug": "college-of-applied-business",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1998 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["1618014576119", "014562736", "014576119"],
+    "email": ["cab@cab.edu.np"],
+    "website": ["https://www.cab.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/cabtechktm",
+      "instagram": "https://www.instagram.com/collegeofappliedbusiness/",
+      "linkedin": "https://www.linkedin.com/school/collegeofappliedbusiness/",
+      "twitter": "https://twitter.com/applied_college",
+      "youtube": "https://www.youtube.com/channel/UCjUmv0Jma7DW6y4vmQ7hehA",
+      "tiktok": "https://tiktok.com/@collegeofappliedbusiness"
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.720114668154643, 85.34269776584458",
+      "latitude": 27.720114668154643,
+      "longitude": 85.34269776584458,
+      "link": "https://maps.app.goo.gl/EWMWxXvbRgj5AURv7"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 22,
+    "name": "Kathmandu Bernhardt College",
+    "slug": "kathmandu-bernhardt-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2060 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015237330", "015237361"],
+    "email": ["ktmbernhardt@kbc.edu.np"],
+    "website": ["https://kbc.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/kathbernhardt/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "https://twitter.com/KathmanduBernH1",
+      "youtube": "https://www.youtube.com/channel/UC7EYbh-t0_tRoLN_Wn3Ck-A",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.701812693094208, 85.28319741984984",
+      "latitude": 27.701812693094208,
+      "longitude": 85.28319741984984,
+      "link": "https://maps.app.goo.gl/np5dAdngfMvakLsLA"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 23,
+    "name": "Deerwalk Institute of Technology",
+    "slug": "deerwalk-institute-of-technology",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2010 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014585424"],
+    "email": ["contact@deerwalk.edu.np"],
+    "website": ["https://deerwalk.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/dwit.college/",
+      "instagram": "https://www.instagram.com/deerwalk.college/",
+      "linkedin": "",
+      "twitter": "https://twitter.com/deerwalkcollege",
+      "youtube": "https://www.youtube.com/channel/UCkyucMwCIBSqOV_oFHcq9cg",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.712623231137623, 85.34250453728608",
+      "latitude": 27.712623231137623,
+      "longitude": 85.34250453728608,
+      "link": "https://maps.app.goo.gl/qmEehgVFpbiqN5928"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 24,
+    "name": "Vedas College",
+    "slug": "vedas-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "NULL",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015430889"],
+    "email": ["info@vedascollege.edu.np"],
+    "website": ["https://vedascollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/Vedas-College-1725717184374235/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.67284065511413, 85.31775912412601",
+      "latitude": 27.67284065511413,
+      "longitude": 85.31775912412601,
+      "link": "https://maps.app.goo.gl/RgFP7Q9r79rZ24G78"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 25,
+    "name": "Texas International College",
+    "slug": "texas-international-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2010 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014579017"],
+    "email": ["enquiry@texasintl.edu.np"],
+    "website": ["https://texasintl.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/texasintlcollege/",
+      "instagram": "https://www.instagram.com/texasinternationalcollege/",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.71356911506786, 85.3424805725331",
+      "latitude": 27.71356911506786,
+      "longitude": 85.3424805725331,
+      "link": "https://maps.app.goo.gl/u72dvZuYM1ndG5Xz6"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 26,
+    "name": "National College of Computer Studies",
+    "slug": "national-college-of-computer-studies",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1999 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014251711", "014228807", "014267866", "014268221"],
+    "email": ["info@nccs.edu.np"],
+    "website": ["https://nccs.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/nccspaknajol/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.71472142939615, 85.30900567195128",
+      "latitude": 27.71472142939615,
+      "longitude": 85.30900567195128,
+      "link": "https://maps.app.goo.gl/q64Jbaw3RcaLREvV9"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 27,
+    "name": "Orchid International College",
+    "slug": "orchid-international-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2010 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014579744", "014579745"],
+    "email": ["info@oic.edu.np"],
+    "website": ["https://www.oic.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/p/Orchid-International-College-100064590793733/",
+      "instagram": "https://www.instagram.com/orchid_international_college/",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "https://www.youtube.com/@OrchidCollege",
+      "tiktok": "https://www.tiktok.com/@orchidcollege?lang=en"
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.702533603928657, 85.34661232761634",
+      "latitude": 27.702533603928657,
+      "longitude": 85.34661232761634,
+      "link": "https://maps.app.goo.gl/9jykoFzjVgAzzwTX7"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 28,
+    "name": "Ambition College",
+    "slug": "ambition-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2060 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014560442", "014564264"],
+    "email": ["info@ambition.edu.np"],
+    "website": ["https://ambition.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/ambition.college/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.695570310571725, 85.33552617804035",
+      "latitude": 27.695570310571725,
+      "longitude": 85.33552617804035,
+      "link": "https://maps.app.goo.gl/8vyRGSR7FRqxJ65a8"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 29,
+    "name": "Sagarmatha College of Science & Technology",
+    "slug": "sagarmatha-college-of-science-&-technology",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2011 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015911274", "015911275", "015536765"],
+    "email": ["info@sagarmatha.edu.np"],
+    "website": ["http://www.scst.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/BScSCST/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.68824513721324, 85.30252421851284",
+      "latitude": 27.68824513721324,
+      "longitude": 85.30252421851284,
+      "link": "https://maps.app.goo.gl/fhi4NcTi6bbxqxaK6"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 30,
+    "name": "Nagarjuna College of Information Technology",
+    "slug": "nagarjuna-college-of-information-technology",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1988 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015268890", " 015268894", " 9851073795"],
+    "email": ["ncitcollege@hotmail.com"],
+    "website": ["https://nagarjunacollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/NagarjunaCollegeOfInformationTechnology/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.679826528597307, 85.32985430828002",
+      "latitude": 27.679826528597307,
+      "longitude": 85.32985430828002,
+      "link": "https://maps.app.goo.gl/Lt8JkvJ76vdqd3h58"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 31,
+    "name": "Academia International College",
+    "slug": "academia-international-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2011 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015425393", "015443037", "015420553", "015421388"],
+    "email": ["mail@academiacollege.edu.np"],
+    "website": ["https://academiacollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/academiacollege",
+      "instagram": "https://www.instagram.com/academia.college/",
+      "linkedin": "https://www.linkedin.com/company/2492433/",
+      "twitter": "https://twitter.com/CollegeAcademia",
+      "youtube": "https://www.youtube.com/channel/UCUdtxFJZWRjjfqVAp7Jealg",
+      "tiktok": "https://www.tiktok.com/@academiacollege?"
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.668463099332932, 85.33207742115349",
+      "latitude": 27.668463099332932,
+      "longitude": 85.33207742115349,
+      "link": "https://maps.app.goo.gl/Qv8iR5dmXtKX6MeTA"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 32,
+    "name": "Himalaya College of Engineering",
+    "slug": "himalaya-college-of-engineering",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2000 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015440555", "015454287", "015454297", "015454536"],
+    "email": ["info@hcoe.edu.np"],
+    "website": ["https://www.hcoe.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/himalayaengineering",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "https://twitter.com/HimalayaCollege",
+      "youtube": "https://www.youtube.com/channel/UC1mJXLE9ZPRYY",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.67698889701472, 85.332747135785",
+      "latitude": 27.67698889701472,
+      "longitude": 85.332747135785,
+      "link": "https://maps.app.goo.gl/H9zgQQeovktSq4eR8"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 33,
+    "name": "Asian School of Management and Technology",
+    "slug": "asian-school-of-management-and-technology",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2075 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015900364"],
+    "email": ["info@asm.edu.np"],
+    "website": ["https://www.asm.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/asmtktm",
+      "instagram": "https://www.instagram.com/asmtofficial/",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.735349686912933, 85.31275439460339",
+      "latitude": 27.735349686912933,
+      "longitude": 85.31275439460339,
+      "link": "https://maps.app.goo.gl/QeNWfGa74LDzB25x5"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 34,
+    "name": "Madan Bhandari Memorial College",
+    "slug": "madan-bhandari-memorial-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2001 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015172175", "015172715"],
+    "email": ["info@mbmc.edu.np"],
+    "website": ["https://www.mbmc.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/mbmc.edu/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.695111682029736, 85.32936372484727",
+      "latitude": 27.695111682029736,
+      "longitude": 85.32936372484727,
+      "link": "https://maps.app.goo.gl/Ah9qQeiV9ZToVs3y8"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 35,
+    "name": "Nepalaya College",
+    "slug": "nepalaya-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1999 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015375203", "015234279"],
+    "email": ["info@nepalaya.edu.np"],
+    "website": ["https://nepalaya.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/Nepalaya.edu.np/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "https://twitter.com/nepalayacol",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.69488560405335, 85.28536504661227",
+      "latitude": 27.69488560405335,
+      "longitude": 85.28536504661227,
+      "link": "https://maps.app.goo.gl/74n6e1RNpJBaUZXG6"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 36,
+    "name": "Asian College of Higher Studies",
+    "slug": "asian-college-of-higher-studies",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2010 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["015912727"],
+    "email": ["info@achsnepal.edu.np"],
+    "website": ["https://achsnepal.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/achscollege",
+      "instagram": "https://www.instagram.com/achscollege",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "https://www.youtube.com/channel/UCkz2TuXd-fASG7rG-4h3fVw/featured",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.670623633103308, 85.30971142495682",
+      "latitude": 27.670623633103308,
+      "longitude": 85.30971142495682,
+      "link": "https://maps.app.goo.gl/SKSeWfMUi5yXBjFT8"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 37,
+    "name": "Trinity International College",
+    "slug": "trinity-international-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2008 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014545954", "014545955", "014545956"],
+    "email": ["info@trinitycollege.edu.np"],
+    "website": ["https://www.trinity.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/Trinity-International-HSSCollege-123877371368846/?fref=ts",
+      "instagram": "https://www.instagram.com/trinityinternational2008/",
+      "linkedin": "https://www.linkedin.com/company/89607122/admin/",
+      "twitter": "",
+      "youtube": "https://www.youtube.com/channel/UCI9QxocOF5Dy5_skkOYIGiA",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.70373284782749, 85.32509809830255",
+      "latitude": 27.70373284782749,
+      "longitude": 85.32509809830255,
+      "link": "https://maps.app.goo.gl/krhgZE6i2uRaMJLQ8"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 38,
+    "name": "Samriddhi College",
+    "slug": "samriddhi-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2013 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["016636700", "016636322"],
+    "email": ["samriddhicollege@gmail.com", "info@samriddhicollege.edu.np"],
+    "website": ["https://samriddhicollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/samriddhicollege",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.676149149022343, 85.36118057089253",
+      "latitude": 27.676149149022343,
+      "longitude": 85.36118057089253,
+      "link": "https://maps.app.goo.gl/sW44sAaVG13TeuBp9"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 39,
+    "name": "Swastik College",
+    "slug": "swastik-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2013 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["016635174"],
+    "email": ["info@swastikcollege.edu.np"],
+    "website": ["https://swastikcollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/swastikcollegeofficial",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.67390878656836, 85.38069849690382",
+      "latitude": 27.67390878656836,
+      "longitude": 85.38069849690382,
+      "link": "https://maps.app.goo.gl/K8SikdNLr4eFzNmY6"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 40,
+    "name": "Kathmandu College of Technology",
+    "slug": "kathmandu-college-of-technology",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "NULL",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["016638497"],
+    "email": ["info@kct.edu.np"],
+    "website": ["https://kct.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/KCTNepal",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.674361873496675, 85.36195048494996",
+      "latitude": 27.674361873496675,
+      "longitude": 85.36195048494996,
+      "link": "https://maps.app.goo.gl/ZHD8W6UR8ddYpuz69"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 41,
+    "name": "NIST College",
+    "slug": "nist-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1993 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["014422050"],
+    "email": ["info@nist.edu.np"],
+    "website": ["https://nist.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/nistscience/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.718451733264654, 85.31533509377412",
+      "latitude": 27.718451733264654,
+      "longitude": 85.31533509377412,
+      "link": "https://maps.app.goo.gl/4oBxhtWviee9G7u7A"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 42,
+    "name": "Shreeyantra College",
+    "slug": "shreeyantra-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2065 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["023590949", "023590950"],
+    "email": ["contact@damaktechnical.edu.np"],
+    "website": ["https://damaktechnical.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/DTEFC/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.656841376810135, 87.69167479463901",
+      "latitude": 26.656841376810135,
+      "longitude": 87.69167479463901,
+      "link": "https://maps.app.goo.gl/e7A9cHHFNpmMfabx5"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 43,
+    "name": "Birendra Memorial College",
+    "slug": "birendra-memorial-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2060 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["025579759", "025530158"],
+    "email": ["bmccsit@gmail.com"],
+    "website": ["https://bmcdharan.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/birendramemorialcollege/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.82236444226376, 87.28426451795885",
+      "latitude": 26.82236444226376,
+      "longitude": 87.28426451795885,
+      "link": "https://maps.app.goo.gl/5Cj6dwY9yKywKYzM7"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 44,
+    "name": "Sushma Godawari College",
+    "slug": "sushma-godawari-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2049 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["025587410", "025581052", "025582712"],
+    "email": ["info@sushmagodawari.edu.np"],
+    "website": ["http://sushmagodawari.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/sushmagodawari/",
+      "instagram": "",
+      "linkedin": "https://np.linkedin.com/in/sushma-godawari-college-50ab63266",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.654094854201748, 87.27744952347396",
+      "latitude": 26.654094854201748,
+      "longitude": 87.27744952347396,
+      "link": "https://maps.app.goo.gl/CFBqiC3dhcFhzCev9"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 45,
+    "name": "Birat Kshitiz College",
+    "slug": "birat-kshitiz-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2069 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["9820756252", "9820756262"],
+    "email": ["Kshitiz.brt@gmail.com"],
+    "website": ["https://kshitiz.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/BiratKshitiz/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.451987070112914, 87.28237209751012",
+      "latitude": 26.451987070112914,
+      "longitude": 87.28237209751012,
+      "link": "https://maps.app.goo.gl/iofeU1VWbaq4r8QM8"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 46,
+    "name": "Nihareeka College",
+    "slug": "nihareeka-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2013 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["021512863", "021512864"],
+    "email": ["nihareekacollegebrt@gmail.com"],
+    "website": ["http://nihareekacollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/niharika.csit/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.472993078127715, 87.27453515352728",
+      "latitude": 26.472993078127715,
+      "longitude": 87.27453515352728,
+      "link": "https://maps.app.goo.gl/DciX2qKx6iefNunm9"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 47,
+    "name": "Birat Multiple College",
+    "slug": "birat-multiple-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2069 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["021420900", "021420902"],
+    "email": ["bmccollage03@gmail.com"],
+    "website": ["https://bmc.arnikofoundation.edu.np/home"],
+    "socials": {
+      "facebook": "https://www.facebook.com/biratmultiplecollege/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.50289677287652, 87.28308264806223",
+      "latitude": 26.50289677287652,
+      "longitude": 87.28308264806223,
+      "link": "https://maps.app.goo.gl/7kzr7kxzxPR9VVXC6"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 48,
+    "name": "AIMS College",
+    "slug": "aims-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2058 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["021577060", "9842131399", "9804300111"],
+    "email": ["aimscollegebrt@gmail.com"],
+    "website": ["https://www.aimsbrt.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/aimscollegebrt",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.451940963214085, 87.27809074836308",
+      "latitude": 26.451940963214085,
+      "longitude": 87.27809074836308,
+      "link": "https://maps.app.goo.gl/ue388ZKusohoZVf39"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 49,
+    "name": "Himalaya Darshan College",
+    "slug": "himalaya-darshan-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2070 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["021590471", "021590571"],
+    "email": ["himalayadarshan5@gmail.com"],
+    "website": ["https://himalayacollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/college.hdc/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "26.44843698210649, 87.27846530690003",
+      "latitude": 26.44843698210649,
+      "longitude": 87.27846530690003,
+      "link": "https://maps.app.goo.gl/fYk2nr896dcgpkDx9"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 50,
+    "name": "National Infotech College",
+    "slug": "national-infotech-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2062 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["051417200"],
+    "email": ["info@nationalinfotechcollege.edu.np"],
+    "website": ["https://nationalinfotechcollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/NationalInfotech",
+      "instagram": "https://www.instagram.com/national_infotech/?hl=en",
+      "linkedin": "https://np.linkedin.com/company/national-infotech-college",
+      "twitter": "https://twitter.com/infotechcollege?lang=en",
+      "youtube": "https://www.youtube.com/channel/UCpKe7yARIgljpFpwolLugTQ",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.02107117254401, 84.89198439814867",
+      "latitude": 27.02107117254401,
+      "longitude": 84.89198439814867,
+      "link": "https://maps.app.goo.gl/783paF6PWBb3hxQX7"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 51,
+    "name": "Hetauda City College",
+    "slug": "hetauda-city-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2070 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["057520750"],
+    "email": ["info@hetaudacitycollege.edu.np"],
+    "website": ["https://hetaudacitycollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/hetaudacitycollege.edu.np",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.41712328112518, 85.04814966460945",
+      "latitude": 27.41712328112518,
+      "longitude": 85.04814966460945,
+      "link": "https://maps.app.goo.gl/7cYj43qZrvp3rgPc7"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 52,
+    "name": "Chitwan College of Technology",
+    "slug": "chitwan-college-of-technology",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2069 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["056590346"],
+    "email": ["info@chitwancollege.edu.np"],
+    "website": ["https://www.chitwancollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/chitwancollege.edu.np",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.67116310925366, 84.450486291625",
+      "latitude": 27.67116310925366,
+      "longitude": 84.450486291625,
+      "link": "https://maps.app.goo.gl/z4VRbEoorHZtYND37"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 53,
+    "name": "Lumbini ICT Campus",
+    "slug": "lumbini-ict-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2075 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["078502188", "078503206"],
+    "email": ["mailto@lict.edu.np"],
+    "website": ["https://lict.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/Lumbini.ICT",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.7053966853993, 84.40638271788039",
+      "latitude": 27.7053966853993,
+      "longitude": 84.40638271788039,
+      "link": "https://maps.app.goo.gl/w45qxXR8qoK5Y4ab7"
+    },
+    "quota": { "total": 48, "open": 38, "samabeshi": 10 }
+  },
+  {
+    "id": 54,
+    "name": "Mount Annapurna Campus",
+    "slug": "mount-annapurna-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "1992 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["061572650"],
+    "email": ["info@macpokhara.edu.np"],
+    "website": ["https://www.macpokhara.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/MAC.ITBASEDCOLLEGE/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.223996117991177, 83.98069571846709",
+      "latitude": 28.223996117991177,
+      "longitude": 83.98069571846709,
+      "link": "https://maps.app.goo.gl/hr5bkTgysK3NHDUQ6"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 55,
+    "name": "Soch College",
+    "slug": "soch-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2070 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["061574096", "061543120"],
+    "email": ["info@sochcollege.edu.np"],
+    "website": ["https://www.sochcollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/sochcollegeofit",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.221970439335518, 83.9975477706166",
+      "latitude": 28.221970439335518,
+      "longitude": 83.9975477706166,
+      "link": "https://maps.app.goo.gl/qXJeCAtGBgsjtZ48A"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 56,
+    "name": "Lumbini City College",
+    "slug": "lumbini-city-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2069 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["071414633"],
+    "email": ["admin@lcc.edu.np"],
+    "website": ["https://lcc.edu.np"],
+    "socials": {
+      "facebook": "https://www.facebook.com/p/Lumbini-City-College-100057427840183/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.64802748570998, 83.46729696359836",
+      "latitude": 27.64802748570998,
+      "longitude": 83.46729696359836,
+      "link": "https://maps.app.goo.gl/bmttWRQMUSHCZGxPA"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 57,
+    "name": "Nepathya College",
+    "slug": "nepathya-college",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2069 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["071562537", "9857034838", "9857012847", "9846970252"],
+    "email": ["info@nepathyacollege.edu.np"],
+    "website": ["https://nepathyacollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/nepathyacollege/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "27.628507415323938, 83.47049690464554",
+      "latitude": 27.628507415323938,
+      "longitude": 83.47049690464554,
+      "link": "https://maps.app.goo.gl/sF9RM3F8RZo6MisN7"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 58,
+    "name": "Banke Bageshwori Campus",
+    "slug": "banke-bageshwori-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2013 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["081534570", "9843616650"],
+    "email": ["bbcollege2071@gmail.com"],
+    "website": ["https://www.bbc.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/bbcnpj/",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.047358400710067, 81.61600861343206",
+      "latitude": 28.047358400710067,
+      "longitude": 81.61600861343206,
+      "link": "https://maps.app.goo.gl/6AjPZP1HZDfhcHa5A"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 59,
+    "name": "Nepalgunj Campus",
+    "slug": "nepalgunj-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2013 AD",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["9848022391", "081522883"],
+    "email": ["official.ncmt@gmail.com"],
+    "website": ["https://nepalgunjcollege.edu.np/"],
+    "socials": {
+      "facebook": "https://www.facebook.com/nepalgunj.banke.963",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": "",
+      "youtube": "https://www.youtube.com/@NepalgunjCampus",
+      "tiktok": ""
+    },
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.0554940791675, 81.61785434418047",
+      "latitude": 28.0554940791675,
+      "longitude": 81.61785434418047,
+      "link": "https://maps.app.goo.gl/Z9jse38PREEAw9PB7"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  },
+  {
+    "id": 60,
+    "name": "Ambikeshwori Campus",
+    "slug": "ambikeshwori-campus",
+    "short_description": "",
+    "description": "",
+    "ownership": "Private Institution",
+    "established": "2069 BS",
+    "logo": "",
+    "cover_image": "",
+    "phone": ["082563545"],
+    "email": ["info@amc.edu.np"],
+    "website": ["https://amc.edu.np/"],
+    "socials": {},
+    "address": { "street": "", "district": "", "province_id": "", "province_name": "" },
+    "map": {
+      "cordinates": "28.041868477980163, 82.4732025239804",
+      "latitude": 28.041868477980163,
+      "longitude": 82.4732025239804,
+      "link": "https://maps.app.goo.gl/aNcJaEzAELt6XcBA7"
+    },
+    "quota": { "total": 36, "open": 29, "samabeshi": 7 }
+  }
+]

@@ -1,0 +1,122 @@
+---
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+import colleges from "../../data/colleges.json";
+import Print from "@components/print.astro";
+
+const constituentColleges = colleges.filter(
+  (college) => college.ownership === "Constituent Institution",
+);
+const privateColleges = colleges.filter((college) => college.ownership === "Private Institution");
+---
+
+<Layout title="Institutions">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">CSIT Institutions</Fragment>
+      <Fragment slot="desc">List of all CSIT Institutions with correponding quotas</Fragment>
+    </Sectionhead>
+    <div class="mt-5 lg:mt-16">
+      <main class="container mx-auto max-w-4xl prose">
+        <table class="table-auto">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Open Quota</th>
+              <th>Samabeshi</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Constituent Institutions</td>
+              <td>{constituentColleges.reduce((acc, college) => acc + college.quota.open, 0)}</td>
+              <td>
+                {constituentColleges.reduce((acc, college) => acc + college.quota.samabeshi, 0)}
+              </td>
+              <td>{constituentColleges.reduce((acc, college) => acc + college.quota.total, 0)}</td>
+            </tr>
+            <tr>
+              <td>Private Institutions</td>
+              <td>{privateColleges.reduce((acc, college) => acc + college.quota.open, 0)}</td>
+              <td>{privateColleges.reduce((acc, college) => acc + college.quota.samabeshi, 0)}</td>
+              <td>{privateColleges.reduce((acc, college) => acc + college.quota.total, 0)}</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>{colleges.reduce((acc, college) => acc + college.quota.open, 0)}</td>
+              <td>{colleges.reduce((acc, college) => acc + college.quota.samabeshi, 0)}</td>
+              <th>{colleges.reduce((acc, college) => acc + college.quota.total, 0)}</th>
+            </tr>
+          </tfoot>
+        </table>
+        <hr />
+        <h1 class="text-xl font-bold text-gray-500 lg:m-0 m-4 sm:py-6">Constituent Institutions</h1>
+        <table class="table-auto">
+          <thead>
+            <tr>
+              <th>S/No</th>
+              <th>Name</th>
+              <th>Total</th>
+              <th>Open</th>
+              <th>Samabeshi</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              constituentColleges.map((college, index) => (
+                <tr>
+                  <td>{index + 1}</td>
+                  <td>
+                    <a href={`${college.website[0]}`} target="_blank">
+                      {college.name + " " + college.address.district}
+                    </a>
+                  </td>
+                  <td>{college.quota.total}</td>
+                  <td>{college.quota.open}</td>
+                  <td>{college.quota.samabeshi}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+        <h1 class="text-xl font-bold text-gray-500 lg:m-0 m-4 sm:py-6" id="private-institutions">
+          Private Institutions
+        </h1>
+        <table class="table-auto">
+          <thead>
+            <tr>
+              <th>S/No</th>
+              <th>Name</th>
+              <th>Total</th>
+              <th>Open</th>
+              <th>Samabeshi</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              privateColleges.map((college, index) => (
+                <tr>
+                  <td>{index + 1}</td>
+                  <td>
+                    <a href={`${college.website[0]}`} target="_blank">
+                      {college.name + "  " + college.address.district}
+                    </a>
+                  </td>
+                  <td>{college.quota.total}</td>
+                  <td>{college.quota.open}</td>
+                  <td>{college.quota.samabeshi}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+        <Print />
+      </main>
+    </div>
+  </Container>
+</Layout>
