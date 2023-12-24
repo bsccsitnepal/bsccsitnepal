@@ -12,7 +12,12 @@ export interface Props {
   title: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+function removeTrailingSlash(str: string) {
+  return str.replace(/\/+$/, "");
+}
+
+// const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const canonicalURL = removeTrailingSlash(new URL(Astro.url.pathname, Astro.site).toString());
 
 const resolvedImageWithDomain = new URL("/assets/homepage.png", Astro.site).toString();
 

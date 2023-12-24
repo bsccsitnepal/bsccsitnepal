@@ -60,7 +60,7 @@ let total = semesters.map((semester, index) => {
                   class="pb-0 mb-0"
                   id={semester.slug}
                   transition:name={`semester-title-${semester.slug}`}>
-                  <a href={"/semesters/" + semester.slug}>{semester.title}</a>
+                  <a href={`/semesters/${semester.slug}`}>{semester.title}</a>
                 </h1>
                 <small class="pb-1" transition:name={`semester-description-${semester.slug}`}>
                   {semester.description}
@@ -82,7 +82,7 @@ let total = semesters.map((semester, index) => {
                             <td>{subject.course_code}</td>
                             <td>
                               <a
-                                href={"/subjects/" + subject.slug}
+                                href={`/subjects/${subject.slug}`}
                                 transition:name={`subject-${subject.slug}`}>
                                 {subject.title}
                               </a>
@@ -117,7 +117,7 @@ let total = semesters.map((semester, index) => {
                       subject.elective && (
                         <li>
                           <a
-                            href={"/subjects/" + subject.slug}
+                            href={`/subjects/${subject.slug}`}
                             transition:name={`subject-${subject.slug}`}>
                             {subject.title + " (" + subject.course_code + ")"}
                           </a>
