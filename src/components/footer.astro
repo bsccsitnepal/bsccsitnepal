@@ -1,5 +1,6 @@
 ---
 import { MenuItems } from "astro-navbar";
+import Tracker from "@components/tracker.astro";
 const menuitems = [
   {
     title: "Privacy",
@@ -23,6 +24,9 @@ const menuitems = [
   <p class="text-center text-sm text-slate-500">
     Copyright © {new Date().getFullYear()} Bsc Csit Nepal. All rights reserved.
   </p>
+
+  <Tracker val="'/'/'l'.'b's'c'c's'i't'n'e'p'a'l'.'c'o'm'/'r'e'f'e'r'e'r'_'h'p'" />
+
   <p class="text-center text-xs text-slate-500 mt-1">
     Made by <a
       href="https://bsccsitnepal.com"

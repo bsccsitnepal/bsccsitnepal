@@ -1,0 +1,11 @@
+---
+interface Props {
+  val: string;
+}
+
+const { val } = Astro.props;
+
+const cleanVal = val.replaceAll("'", "");
+---
+
+<img loading="eager" src={cleanVal} alt="" height="1" width="1" />
