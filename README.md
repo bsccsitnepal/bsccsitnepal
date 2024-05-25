@@ -19,9 +19,7 @@
 ## Details
 
 1. Production Url : [https://bsccsitnepal.com](https://bsccsitnepal.com)
-2. Development Url : [https://dev.bsccsitnepal.com](https://dev.bsccsitnepal.com)
-3. Hosted At : [Netlify](https://netlify.com)
-4. Framework : [Astro](https://astro.build)
+2. Framework : [Astro](https://astro.build)
 
 ## Prerequisites
 
