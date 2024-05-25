@@ -1,3 +1,7 @@
+---
+const NPSYNC_ANALYTICS_CODE = import.meta.env.NPSYNC_ANALYTICS_CODE || "";
+---
+
 <script is:inline src="/assets/plugins/fontawesome@6.3.0/fontawesome.min.js"></script>
 
 <script is:inline>
@@ -85,3 +89,8 @@
     }
   }
 </script>
+
+<script
+  is:inline
+  src="https://analytics.npsync.com/script.js"
+  data-website-id={NPSYNC_ANALYTICS_CODE}></script>
