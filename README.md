@@ -7,6 +7,11 @@
 
 [Bsc Csit Nepal](https://bsccsitnepal.com) is a opensource initiative to make a single collection of CSIT related materials. It contains the Cirriculam Structure, Syllabus, Old Questions and more. It is a **PWA app** and has an **Offline** capability.
 
+<p align="center">
+    <img src="https://img.shields.io/badge/License-GPL3.0-red.svg">
+	<img src="https://api.netlify.com/api/v1/badges/13764087-d583-442d-a719-b9eae65698d3/deploy-status" alt="Netlify Status">
+</p>
+
 ## Table Of Contents
 
 - [Details](#details)
