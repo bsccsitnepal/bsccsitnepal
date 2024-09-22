@@ -1,8 +1,7 @@
 ---
-import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Link from "@components/ui/link.astro";
+import Layout from "@layouts/Layout.astro";
 
 type App = {
   draft: boolean;
@@ -26,14 +25,23 @@ const apps: App[] = [
     buttonImage: "/assets/app-stores/pwa-1.png",
     onclick: "PWAInstall()",
   },
+  // {
+  //   draft: false,
+  //   title: "Microsoft Store",
+  //   description: "Check out our windows app",
+  //   image: "/assets/mockups/18.png",
+  //   imageAlt: "Microsoft Store",
+  //   link: "https://apps.microsoft.com/detail/bsc-csit-nepal/9PPDRZ4NR22W",
+  //   buttonImage: "/assets/app-stores/microsoft-store.png",
+  // },
   {
-    draft: false,
-    title: "Microsoft Store",
-    description: "Check out our windows app",
-    image: "/assets/mockups/18.png",
-    imageAlt: "Microsoft Store",
-    link: "https://apps.microsoft.com/detail/bsc-csit-nepal/9PPDRZ4NR22W",
-    buttonImage: "/assets/app-stores/microsoft-store.png",
+    draft: true,
+    title: "Google Play Store",
+    description: "Our Android app is nearly ready.",
+    image: "/assets/mockups/10.png",
+    imageAlt: "Google Play Store",
+    link: "#",
+    buttonImage: "/assets/app-stores/google-playstore-1.png",
   },
   {
     draft: true,
@@ -43,15 +51,6 @@ const apps: App[] = [
     imageAlt: "Apple AppStore",
     link: "#",
     buttonImage: "/assets/app-stores/apple-appstore-1.png",
-  },
-  {
-    draft: true,
-    title: "Google Play Store",
-    description: "Our Android app is nearly ready.",
-    image: "/assets/mockups/10.png",
-    imageAlt: "Google Play Store",
-    link: "#",
-    buttonImage: "/assets/app-stores/google-playstore-1.png",
   },
 ];
 
