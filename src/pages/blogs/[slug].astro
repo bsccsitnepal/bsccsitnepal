@@ -1,8 +1,7 @@
 ---
-import { getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-import Print from "@components/print.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
 
 const gitBranch: string = process.env.NODE_ENV === "production" ? "master" : "dev";
 
@@ -14,7 +13,6 @@ export async function getStaticPaths() {
     props: { entry },
   }));
 }
-
 // Get the entry directly from the prop on render
 const { entry } = Astro.props;
 const { Content } = await entry.render();
@@ -22,45 +20,57 @@ const { Content } = await entry.render();
 
 <Layout title={entry.data.title}>
   <Container>
-    <div class="mx-auto max-w-[735px] mt-14">
-      <span
-        class="text-blue-400 uppercase tracking-wider text-sm font-medium"
-        transition:name={`blog-${entry.data.category}-misc`}>
-        {entry.data.category}
-      </span>
-      <h1
-        class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight"
-        transition:name={`blog-${entry.data.title}`}>
-        {entry.data.title}
-      </h1>
-      <div
-        class="flex gap-2 mt-3 items-center flex-wrap md:flex-nowrap"
-        transition:name={`blog-${entry.data.title}-misc`}>
-        <span class="text-gray-400">
-          {entry.data.author}
+    <div class="max-w-screen-xl mx-auto px-5">
+      <div class="mx-auto max-w-3xl text-center mt-14">
+        <span
+          class="text-blue-400 uppercase tracking-wider text-sm font-medium"
+          transition:name={`blog-${entry.data.category}-category`}>
+          {entry.data.category}
         </span>
-        <span class="text-gray-400">•</span>
-        <time class="text-gray-400" datetime={entry.data.publishDate.toISOString()}>
-          {entry.data.publishDate.toDateString()}
-        </time>
-        <span class="text-gray-400 hidden md:block">•</span>
-        <div class="w-full md:w-auto flex flex-wrap gap-3">
-          {entry.data.tags.map((tag) => <span class="text-sm text-gray-500">#{tag}</span>)}
+        <h1
+          class="text-3xl lg:text-4xl font-bold lg:tracking-tight mt-1 lg:leading-tight"
+          transition:name={`blog-${entry.data.title}`}>
+          {entry.data.title}
+        </h1>
+        <div class="flex gap-2 mt-3 items-center justify-center text-sm flex-wrap md:flex-nowrap">
+          <span class="text-slate-400" transition:name={`blog-${entry.data.title}-author`}>
+            {entry.data.author}
+          </span>
+          <span class="text-slate-400">•</span>
+          <time
+            class="text-gray-400"
+            transition:name={`blog-${entry.data.title}-date`}
+            datetime={entry.data.publishDate.toISOString()}>
+            {entry.data.publishDate.toDateString()}
+          </time>
+          <span class="text-slate-400 hidden md:block">•</span>
+          <div class="w-full md:w-auto flex flex-wrap justify-center gap-3">
+            {entry.data.tags.map((tag) => <span class="text-sm text-gray-500">#{tag}</span>)}
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="mx-auto prose prose-lg mt-6">
+    <div class="mx-auto max-w-4xl">
+      <picture>
+        <img
+          src={entry.data.image.src}
+          alt="Feature image"
+          class="h-full w-full object-contain rounded-xl mt-6"
+          width="1280"
+          height="800"
+          loading="lazy"
+          decoding="async"
+          transition:name={`blog-${entry.data.title}-image`}
+        />
+      </picture>
+    </div>
+    <div class="mx-auto prose mt-6 max-w-3xl prose-headings:mb-2 prose-headings:mt-8">
       <Content />
-      <div class="text-center mt-8 print:hidden">
-        <a
-          href="/blogs"
-          class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition no-underline">
-          ← Back to Blog
-        </a>
-      </div>
-      <hr />
-      <Print />
+    </div>
+    <div class="text-center mt-12">
+      <a href="/blog" class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition">
+        ← Back to Blog
+      </a>
     </div>
   </Container>
 </Layout>
