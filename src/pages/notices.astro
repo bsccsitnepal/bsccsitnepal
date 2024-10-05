@@ -1,20 +1,50 @@
 ---
-import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
+
+const apiUrl = "https://scraper.bsccsitnepal.com/notice";
+const response = await fetch(apiUrl);
+const notices = await response.json();
 ---
 
 <Layout title="Notices">
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">Notices</Fragment>
-      <Fragment slot="desc">Recent notices from TUIOST</Fragment>
-    </Sectionhead>
+    <Sectionhead title="Notices" description="Recent notices from TUIOST" />
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto" id="notice_wrapper">
-        <li>
-          <p class="text-center">No notices found.</p>
-        </li>
+        {
+          notices.data.length === 0 && (
+            <li>
+              <p class="text-center">No notices found.</p>
+            </li>
+          )
+        }
+        {
+          notices.data.map((notice) => (
+            <li>
+              <div class="grid gap-5 md:gap-10 items-center">
+                <div>
+                  <span class="text-blue-600 uppercase tracking-wider text-sm font-medium">
+                    Notice
+                  </span>
+
+                  <h2 class="text-2xl font-semibold leading-snug tracking-tight mt-1 ">
+                    <a class="hover:text-gray-600" href={notice.link} target="_blank">
+                      {notice.title}
+                    </a>
+                  </h2>
+
+                  <div class="flex gap-2 mt-3">
+                    <span class="text-gray-400"> {notice.date} </span>
+                    <span class="text-gray-400"> • </span>
+                    <span class="text-gray-400"> {notice.author}</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          ))
+        }
       </ul>
     </main>
   </Container>
