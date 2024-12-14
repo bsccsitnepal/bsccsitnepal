@@ -28,7 +28,7 @@
 
 ## Prerequisites
 
-To run this project, **NodeJS** and **yarn** should be installed on your system.
+To run this project, **NodeJS** and **pnpm** should be installed on your system.
 
 ## Installation
 
@@ -36,11 +36,11 @@ To run this project, **NodeJS** and **yarn** should be installed on your system.
 
    https://github.com/bsccsitnepal/bsccsitnepal/fork
 
-2. `yarn`
+2. `pnpm install`
 3. Copy `.env.example` to `.env`
 4. Fill all variable values.
-5. `yarn build`
-6. `yarn start`
+5. `pnpm build`
+6. `pnpm start`
 
 ## Author
 

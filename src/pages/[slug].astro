@@ -1,9 +1,11 @@
 ---
-import { getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
+export const prerender = true;
+
 import Container from "@components/container.astro";
-import Sectionhead from "@components/sectionhead.astro";
 import Print from "@components/print.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
 
 const gitBranch: string = process.env.NODE_ENV === "production" ? "master" : "dev";
 
@@ -26,10 +28,7 @@ const { Content } = await entry.render();
 
 <Layout title={page.title}>
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">{page.title}</Fragment>
-      <Fragment slot="desc">{page.description}</Fragment>
-    </Sectionhead>
+    <Sectionhead title={page.title} description={page.description} />
     <div class="mt-16">
       <main class="container mx-auto max-w-4xl prose">
         <Content />

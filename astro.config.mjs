@@ -1,19 +1,22 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
+import netlify from "@astrojs/netlify";
 import sitemap from "@astrojs/sitemap";
-import remarkMath from "remark-math";
-import rehypeMathjax from "rehype-mathjax";
+import tailwind from "@astrojs/tailwind";
 import compress from "astro-compress";
+import { defineConfig } from "astro/config";
 import dotenv from "dotenv";
+import rehypeMathjax from "rehype-mathjax";
+import remarkMath from "remark-math";
 dotenv.config();
 
 // https://astro.build/config
 export default defineConfig({
   site: process.env.SITE_URL,
-  trailingSlash: 'never',
+  trailingSlash: "never",
   markdown: {
     remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeMathjax]
+    rehypePlugins: [rehypeMathjax],
   },
-  integrations: [tailwind(), sitemap(), compress()]
+  integrations: [tailwind(), sitemap(), compress()],
+  output: "server",
+  adapter: netlify(),
 });

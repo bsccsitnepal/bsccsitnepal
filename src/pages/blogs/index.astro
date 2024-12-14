@@ -1,9 +1,9 @@
 ---
-import { getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
 import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blogs", ({ data }) => {
@@ -18,10 +18,7 @@ publishedBlogEntries.sort(function (a, b) {
 
 <Layout title="Blog">
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">Blog</Fragment>
-      <Fragment slot="desc"></Fragment>
-    </Sectionhead>
+    <Sectionhead title="Blogs" />
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
@@ -35,22 +32,23 @@ publishedBlogEntries.sort(function (a, b) {
           publishedBlogEntries.length > 0 &&
             publishedBlogEntries.map((blogPostEntry, index) => (
               <li>
-                <a href={`/blogs/${blogPostEntry.slug}/`}>
+                <a href={`/blogs/${blogPostEntry.slug}`}>
                   <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
                     <Image
                       src={blogPostEntry.data.image.src}
-                      alt="hi"
+                      alt={blogPostEntry.data.image.alt}
                       height={blogPostEntry.data.image.height}
                       width={blogPostEntry.data.image.width}
                       fetchpriority={"high"}
                       loading={index <= 2 ? "eager" : "lazy"}
                       decoding={index <= 2 ? "sync" : "async"}
+                      transition:name={`blog-${blogPostEntry.data.title}-image`}
                       class="w-full rounded-md"
                     />
                     <div>
                       <span
                         class="text-blue-400 uppercase tracking-wider text-sm font-medium"
-                        transition:name={`blog-${blogPostEntry.data.category}-misc`}>
+                        transition:name={`blog-${blogPostEntry.data.category}-category`}>
                         {blogPostEntry.data.category}
                       </span>
 
@@ -62,11 +60,12 @@ publishedBlogEntries.sort(function (a, b) {
 
                       <div
                         class="flex gap-2 mt-3"
-                        transition:name={`blog-${blogPostEntry.data.title}-misc`}>
+                        transition:name={`blog-${blogPostEntry.data.title}-author`}>
                         <span class="text-gray-400">{blogPostEntry.data.author}</span>
                         <span class="text-gray-400">• </span>
                         <time
                           class="text-gray-400"
+                          transition:name={`blog-${blogPostEntry.data.title}-date`}
                           datetime={blogPostEntry.data.publishDate.toISOString()}>
                           {blogPostEntry.data.publishDate.toDateString()}
                         </time>

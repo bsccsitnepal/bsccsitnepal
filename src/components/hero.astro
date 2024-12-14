@@ -1,6 +1,6 @@
 ---
-import heroImage from "assets/hero.png";
 import Link from "@components/ui/link.astro";
+import heroImage from "assets/hero.png";
 import { Image } from "astro:assets";
 ---
 
@@ -15,19 +15,23 @@ import { Image } from "astro:assets";
     <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
       Bsc Csit Nepal
     </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl">Simple & Ads-free CSIT Experience</p>
+    <p class="text-lg mt-4 text-slate-600 max-w-xl">
+      Explore comprehensive academic resources, up-to-date syllabi, past questions, and notices
+      tailored for BSc.CSIT students in Nepal. Access everything you need to excel in your
+      studies—all in one place, completely free!
+    </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link href="/semesters" class="flex gap-1 items-center justify-center" rel="noopener">
-        <i class="fa-light fa-book-blank text-white w-4 h-4 mx-2"></i>
-         Browse Contents
+        <i class="fa-solid fa-book-blank text-white w-4 h-4 mx-2"></i>
+        Explore Resources
       </Link>
       <Link
-        href="/install"
+        href="/about"
         class="flex gap-1 items-center justify-center"
         rel="noopener"
         style="outline">
-        <i class="fa-light fa-download w-4 h-4 mx-2"></i>
-         Install Apps
+        <i class="fa-regular fa-square-up-right text-black w-4 h-4 mx-2"></i>
+        <b>Learn More </b>
       </Link>
     </div>
   </div>

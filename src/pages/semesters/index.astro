@@ -1,16 +1,13 @@
 ---
-import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
 import semesters from "../../data/semesters.json";
 ---
 
 <Layout title="Semesters">
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">Semesters</Fragment>
-      <Fragment slot="desc">All semesters of csit are listed below.</Fragment>
-    </Sectionhead>
+    <Sectionhead title="Semesters" description="All semesters of csit are listed below" />
     <main class="conatiner mx-auto mt-16">
       <div class="grid grid-cols-1 lg:grid-cols-2">
         {

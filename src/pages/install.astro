@@ -1,8 +1,7 @@
 ---
-import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Link from "@components/ui/link.astro";
+import Layout from "@layouts/Layout.astro";
 
 type App = {
   draft: boolean;
@@ -21,19 +20,28 @@ const apps: App[] = [
     title: "Progressive Web App",
     image: "/assets/mockups/14.png",
     imageAlt: "Progressive Web App",
-    description: "Our PWA app can be installed on any device as a native app",
+    description: "Our PWA app can be installed on any device",
     link: "#",
     buttonImage: "/assets/app-stores/pwa-1.png",
     onclick: "PWAInstall()",
   },
+  // {
+  //   draft: false,
+  //   title: "Microsoft Store",
+  //   description: "Check out our windows app",
+  //   image: "/assets/mockups/18.png",
+  //   imageAlt: "Microsoft Store",
+  //   link: "https://apps.microsoft.com/detail/bsc-csit-nepal/9PPDRZ4NR22W",
+  //   buttonImage: "/assets/app-stores/microsoft-store.png",
+  // },
   {
-    draft: false,
-    title: "Microsoft Store",
-    description: "Check out our windows app",
-    image: "/assets/mockups/18.png",
-    imageAlt: "Microsoft Store",
-    link: "https://apps.microsoft.com/detail/bsc-csit-nepal/9PPDRZ4NR22W",
-    buttonImage: "/assets/app-stores/microsoft-store.png",
+    draft: true,
+    title: "Google Play Store",
+    description: "Our Android app is nearly ready.",
+    image: "/assets/mockups/10.png",
+    imageAlt: "Google Play Store",
+    link: "#",
+    buttonImage: "/assets/app-stores/google-playstore-1.png",
   },
   {
     draft: true,
@@ -44,27 +52,15 @@ const apps: App[] = [
     link: "#",
     buttonImage: "/assets/app-stores/apple-appstore-1.png",
   },
-  {
-    draft: true,
-    title: "Google Play Store",
-    description: "Our Android app is nearly ready.",
-    image: "/assets/mockups/10.png",
-    imageAlt: "Google Play Store",
-    link: "#",
-    buttonImage: "/assets/app-stores/google-playstore-1.png",
-  },
 ];
 
 // Sort apps by draft status, so that draft apps are at the end of the list
 const sortApps: App[] = [...apps.filter((app) => !app.draft), ...apps.filter((app) => app.draft)];
 ---
 
-<Layout title="Installation">
+<Layout title="Our Apps">
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">Installation</Fragment>
-      <Fragment slot="desc">Install our apps on various platforms</Fragment>
-    </Sectionhead>
+    <Sectionhead title="Our Apps" description="Install our apps on various platforms" />
     <div class="mt-5 lg:mt-16">
       <>
         {

@@ -1,12 +1,13 @@
 ---
+export const prerender = true;
+
 import Container from "@components/container.astro";
+import Print from "@components/print.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { ucFirst } from "@utils/all";
 import { getCollection } from "astro:content";
-import semesters from "../../../data/semesters.json";
 import subjects from "../../../data/subjects.json";
-import Print from "@components/print.astro";
 
 const gitBranch: string = process.env.NODE_ENV === "production" ? "master" : "dev";
 
@@ -33,10 +34,7 @@ const { Content } = await question.render();
 
 <Layout title={ucFirst(question.data.year) + " | Questions | " + question.subject!.title}>
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">{ucFirst(question.data.year)}</Fragment>
-      <Fragment slot="desc">{question.subject!.title}</Fragment>
-    </Sectionhead>
+    <Sectionhead title={ucFirst(question.data.year)} description={question.subject!.title} />
     <div class="mx-auto prose prose-lg mt-6">
       <Content />
       <hr />

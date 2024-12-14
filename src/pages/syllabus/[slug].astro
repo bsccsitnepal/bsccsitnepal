@@ -1,9 +1,11 @@
 ---
+export const prerender = true;
+
 import Container from "@components/container.astro";
-import { getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
-import subjects from "../../data/subjects.json";
 import Print from "@components/print.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import subjects from "../../data/subjects.json";
 
 const gitBranch: string = process.env.NODE_ENV === "production" ? "master" : "dev";
 
