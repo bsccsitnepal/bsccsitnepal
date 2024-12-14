@@ -1,66 +1,42 @@
 ---
-// @ts-ignore
-import { Icon } from "astro-icon";
-
-const features = [
-  {
-    title: "Syllabus",
-    description:
-      "We offer comprehensive micro syllabi for all subjects presented in a concise and reader-friendly manner.",
-    icon: "fa-light fa-book",
-  },
-  {
-    title: "Old Question Papers",
-    description: "We offer a chronological compilation of past year's question papers.",
-    icon: "fa-light fa-question",
-  },
-  {
-    title: "PWA Enabled",
-    description:
-      "Our website is equipped with Progressive Web App (PWA) functionality, allowing you to easily install it as an app.",
-    icon: "fa-light fa-mobile",
-  },
-  // {
-  //   title: "Offline Availability",
-  //   description:
-  //     "Thanks to the Progressive Web App (PWA) capabilities, the content of our website can be accessed offline.",
-  //   icon: "fa-light fa-wifi-slash",
-  // },
-  // {
-  //   title: "Open Sourced",
-  //   description:
-  //     "We strongly adhere to the principles of open source. All of our content is tracked and managed using GitHub.",
-  //   icon: "fa-brands fa-osi",
-  // },
-  {
-    title: "Printable Pages",
-    description: "All of our resource pages are print friendly. Just print it. No issue.",
-    icon: "fa-light fa-print",
-  },
-];
+interface Props {
+  data: {
+    title: string;
+    description: string;
+    highlight: string;
+    items: {
+      title: string;
+      description: string;
+      icon: string;
+    }[];
+  };
+}
+const props = Astro.props;
 ---
 
-<div class="md:px-20 sm:px-0">
-  <div class="mt-16 md:mt-0">
-    <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">All the contents you need</h2>
-    <p class="text-lg mt-4 text-slate-600">
-      We have prepared a comprehensive collection of resources you need.
-    </p>
-  </div>
+<div class="max-w-3xl mx-auto flex flex-col items-center justify-center my-5">
+  <span
+    class="bg-purple-100 border-purple-200 border text-purple-600 rounded-full text-xs font-medium px-3 py-1">
+    {props.data.highlight}
+  </span>
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-4 text-center">
+    {props.data.title}
+  </h2>
+  <p class="text-lg mt-4 text-slate-600 text-center [text-wrap:pretty]">{props.data.description}</p>
+</div>
 
-  <div class="grid sm:grid-cols-2 md:grid-cols-2 mt-16 gap-16">
-    {
-      features.map((item) => (
-        <div class="flex gap-4 items-start">
-          <div class="mt-1 bg-black rounded-full p-2 w-10 h-10 shrink-0 flex place-content-center">
-            <i class={"text-white place-self-center " + item.icon} />
-          </div>
-          <div>
-            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
-            <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
-          </div>
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-8 md:gap-16">
+  {
+    props.data.items.map((item) => (
+      <div class="flex flex-col gap-4 items-start group hover:bg-slate-50 hover:border-slate-100 border border-transparent rounded-lg transition-all md:-m-5 p-5">
+        <div class="mt-1 bg-indigo-50 border shadow shadow-indigo-100/50 border-indigo-100 transition-colors rounded-lg grid place-items-center p-2 w-10 h-10 shrink-0">
+          <div class="text-indigo-500" set:html={item.icon} />
         </div>
-      ))
-    }
-  </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
 </div>

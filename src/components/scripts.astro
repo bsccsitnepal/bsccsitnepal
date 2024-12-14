@@ -3,68 +3,7 @@ const NPSYNC_ANALYTICS_CODE = import.meta.env.NPSYNC_ANALYTICS_CODE || "";
 ---
 
 <script is:inline src="/assets/plugins/fontawesome@6.3.0/fontawesome.min.js"></script>
-
-<script is:inline>
-  // Fetch recent notices from TUIOST
-  document.addEventListener("DOMContentLoaded", async (e) => fetchNotices(e));
-  document.addEventListener("astro:after-swap", async (e) => fetchNotices(e));
-  async function fetchNotices(e) {
-    const notice_wrapper = document.querySelector("#notice_wrapper");
-    if (notice_wrapper) {
-      await fetch("https://scraper.bsccsitnepal.com/notice", {
-        headers: { Accept: "application/json" },
-      })
-        .then((res) => res.json())
-        .then((res) => {
-          // Check if the response is valid
-          if (res.statusCode !== 200) return console.error(res.message);
-
-          // Get the notices
-          const notices = res.data;
-
-          // Get the notice wrapper
-          const notice_wrapper = document.querySelector("#notice_wrapper");
-          if (!notice_wrapper) return;
-
-          // Clear the default notice
-          notice_wrapper.innerHTML = "";
-
-          // Loop through the notices
-          const content = notices.map((notice) => {
-            return `
-                <li>
-                        <div class="grid gap-5 md:gap-10 items-center">
-                          <div>
-                            <span class="text-blue-600 uppercase tracking-wider text-sm font-medium">Notice</span>
-        
-                            <h2 class="text-2xl font-semibold leading-snug tracking-tight mt-1 ">
-                              <a class="hover:text-gray-600" href=${notice.link} target="_blank">
-                                ${notice.title}
-                              </a>
-                            </h2>
-        
-                            <div class="flex gap-2 mt-3">
-                              <span class="text-gray-400"> ${notice.date} </span>
-                              <span class="text-gray-400"> • </span>
-                              <span class="text-gray-400"> ${notice.author}</span>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                `;
-          });
-
-          content.forEach((c) => (notice_wrapper.innerHTML += c));
-
-          notice_wrapper.innerHTML += `
-                <li>
-                  <p class="">Older notices can be found at <b><a href="https://iost.tu.edu.np/notices" class="underline hover:text-gray-600" target="_blank">https://iost.tu.edu.np/notices</a></b></p>
-                </li>
-                `;
-        });
-    }
-  }
-</script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 <script is:inline transition:name="installpwa" transition:persist>
   var deferredPrompt;

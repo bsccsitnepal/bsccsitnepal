@@ -3,9 +3,10 @@ export const prerender = true;
 
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import subjects from "../../../data/subjects.json";
-import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
 import { ucFirst } from "@utils/all";
+import { getCollection } from "astro:content";
+import subjects from "../../../data/subjects.json";
 
 // Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -24,20 +25,24 @@ export async function getStaticPaths() {
 
 const { question } = Astro.props;
 
+if (!question.subject) {
+  return {
+    status: 404,
+    error: new Error("Subject not found"),
+  };
+}
+
 const questionEntries = await getCollection("questions");
 console.log(questionEntries[0].slug, question.subject?.slug);
 const questionOfThisSubject = questionEntries.filter(
-  (q) => q.slug.split("/")[0] === question.subject?.slug,
+  (q) => q.slug.split("/")[0] === question.subject?.slug
 );
 questionOfThisSubject.reverse();
 ---
 
 <Layout title="Questions">
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">{question.subject?.title}</Fragment>
-      <Fragment slot="desc">Old Questions</Fragment>
-    </Sectionhead>
+    <Sectionhead title={question.subject.title} description="Old Questions" />
     <main class="conatiner mx-auto mt-16">
       <div class="grid grid-cols-1 lg:grid-cols-2">
         {
