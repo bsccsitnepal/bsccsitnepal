@@ -1,0 +1,101 @@
+---
+import Link from "./ui/link.astro";
+
+interface Props {
+  layout: "image-left" | "image-right";
+  data: {
+    title: string;
+    description: string;
+    highlight: string;
+    image: { src: string; alt?: string };
+    items: string[];
+    primaryAction?: { label: string; url: string };
+    secondaryAction?: { label: string; url: string };
+  };
+}
+const props = Astro.props;
+---
+
+<div class="grid md:grid-cols-2 py-10 gap-5">
+  <div class={`grid place-items-center ${props.layout === "image-right" ? "order-1" : ""}`}>
+    <picture>
+      <img
+        class="rounded-lg"
+        src={props.data.image.src}
+        alt={props.data.image.alt}
+        loading="lazy"
+        width="730"
+        height="584"
+        decoding="async"
+      />
+    </picture>
+  </div>
+  <div class="grid place-items-center">
+    <div class="max-w-lg">
+      <span
+        class="bg-purple-100 border-purple-200 border text-purple-600 -ml-px rounded-full text-xs font-medium px-3 py-1"
+        >{props.data.highlight}
+      </span>
+      <h3 class="text-2xl font-medium mt-4 [text-wrap:balance]">{props.data.title}</h3>
+      <p class="mt-4 text-slate-600 [text-wrap:balance]">{props.data.description}</p>
+      <ul class="grid mt-6 text-left gap-y-4">
+        {
+          props.data.items.map((item) => (
+            <li class="flex items-center gap-3 text-neutral-800">
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 256 256"
+                class="w-5 h-5"
+                data-icon="ph:check-circle-fill">
+                <symbol id="ai:ph:check-circle-fill">
+                  <path
+                    fill="currentColor"
+                    d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m45.66 85.66l-56 56a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L112 148.69l50.34-50.35a8 8 0 0 1 11.32 11.32"
+                  />
+                </symbol>
+                <use xlink:href="#ai:ph:check-circle-fill" />
+              </svg>
+              <span class="text-sm">{item}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <div class="flex items-center gap-4 mt-6">
+        {
+          props.data.primaryAction && (
+            <Link
+              href={props.data.primaryAction.url}
+              class="flex gap-1 items-center justify-center"
+              class:list={["text-sm"]}
+              rel="noopener"
+              style="primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-4 h-4 mt-px group-hover:translate-x-1 transition-transform">
+                <path
+                  fill-rule="evenodd"
+                  d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              {props.data.primaryAction.label}
+            </Link>
+          )
+        }
+
+        {
+          props.data.secondaryAction && (
+            <a
+              href={props.data.secondaryAction.url}
+              class="text-sm px-2 transition py-1 text-slate-600 hover:text-indigo-600 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500 focus-visible:outline-none focus-visible:shadow-outline-indigo rounded-full">
+              {props.data.secondaryAction.label}
+            </a>
+          )
+        }
+      </div>
+    </div>
+  </div>
+</div>

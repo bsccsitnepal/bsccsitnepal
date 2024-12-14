@@ -1,10 +1,10 @@
 ---
 import Container from "@components/container.astro";
-import Layout from "@layouts/Layout.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
 
-import colleges from "../../data/colleges.json";
 import Print from "@components/print.astro";
+import colleges from "../../data/colleges.json";
 
 const constituentColleges = colleges.filter(
   (college) => college.ownership === "Constituent Institution",
@@ -14,10 +14,10 @@ const privateColleges = colleges.filter((college) => college.ownership === "Priv
 
 <Layout title="Institutions">
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">CSIT Institutions</Fragment>
-      <Fragment slot="desc">List of all CSIT Institutions with correponding quotas</Fragment>
-    </Sectionhead>
+    <Sectionhead
+      title="CSIT Institutions"
+      description="List of all CSIT Institutions with correponding quotas"
+    />
     <div class="mt-5 lg:mt-16">
       <main class="container mx-auto max-w-4xl prose">
         <table class="table-auto">
